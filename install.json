@@ -1,0 +1,34 @@
+{
+  "resources": {
+    "head": [
+      {
+        "type": "style",
+        "src": "./src/app.css"
+      }
+    ],
+    "body": [
+      {
+        "type": "script",
+        "src": "./src/app.js"
+      }
+    ]
+  },
+  "options": {
+    "properties": {
+      "queryParamName": {
+        "title": "Query parameter name",
+        "type": "string",
+        "default": "quash-all-the-things"
+      },
+      "selectorsToHide": {
+        "title": "Selectors to hide",
+        "type": "array",
+        "default": [],
+        "items": {
+          "title": "Selector",
+          "type": "string"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "qsh",
+  "version": "0.0.0",
+  "description": "Query-Select-Hide Cloudflare app",
+  "author": {
+    "name": "GroupMove Ltd",
+    "email": "<tech@movegb.com>"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https:/github.com/MoveGB/qsh"
+  }
+}
