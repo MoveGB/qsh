@@ -9,4 +9,7 @@ When navigating to a supporting page, a small piece of JavaScript checks for the
 The parameter name is configurable, and defaults to `quash-all-the-things`.
 
 If the parameter's value is `1` (i.e. the URL looks like `www.cloudflare-proxied-site.com/?quash-all-the-things=1`),
-the app will hide any elements that match the user-configurable list of CSS selectors.
+the app will hide any elements that match the user-configurable list of CSS selectors. If the parameters's value is `0`,
+the elements will be shown as normal.
+
+The last-received parameter value is stored in a cookie, so that it is preserved across page navigation.
