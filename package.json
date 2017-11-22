@@ -1,6 +1,6 @@
 {
   "name": "qsh",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Query-Select-Hide Cloudflare app",
   "author": {
     "name": "GroupMove Ltd",
