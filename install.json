@@ -1,11 +1,5 @@
 {
   "resources": {
-    "head": [
-      {
-        "type": "style",
-        "src": "./src/app.css"
-      }
-    ],
     "body": [
       {
         "type": "script",
